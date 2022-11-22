@@ -1,0 +1,301 @@
+body{
+    background-color: rgb(40, 114, 51,.5);
+}
+
+/*Bar*/
+
+.bar{
+    background-image: url(Images/banner1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 35vh;
+    margin: 0;
+
+    border-radius: 10px;
+    border: solid;
+    border-color: rgb(40, 114, 51);
+}
+
+.activity-bar{
+    background-image: url(Images/jellyfishact.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 35vh;
+    margin: 0;
+
+    border-radius: 10px;
+    border: solid;
+    border-color: rgb(40, 114, 51);
+}
+
+.activity-title > h1{
+    border: solid 1px;
+    border-radius: 10px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7vh;
+
+    display: block;
+
+    text-align: center;
+    
+    width: 50%;
+
+    color: rgb(40, 114, 51);
+    font-size: 500%;
+}
+
+.food-bar{
+    background-image: url(Images/pike.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 35vh;
+    margin: 0;
+
+    border-radius: 10px;
+    border: solid;
+    border-color: rgb(40, 114, 51);
+}
+
+.food-title > h1{
+    border: solid 1px;
+    border-radius: 10px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7vh;
+
+    display: block;
+
+    text-align: center;
+    
+    width: 50%;
+
+    color: rgb(40, 114, 51);
+    font-size: 500%;
+}
+
+.tosee-bar{
+    background-image: url(Images/ferrisbanner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 35vh;
+    margin: 0;
+
+    border-radius: 10px;
+    border: solid;
+    border-color: rgb(40, 114, 51);
+}
+
+.tosee-title > h1{
+    border: solid 1px;
+    border-radius: 10px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7vh;
+
+    display: block;
+
+    text-align: center;
+    
+    width: 50%;
+
+    color: rgb(40, 114, 51);
+    font-size: 500%;
+}
+
+    /*Title*/
+    .title > h1{
+        border: solid 1px;
+        border-radius: 10px;
+
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5vh;
+
+        display: block;
+
+        text-align: center;
+        
+        width: 50%;
+
+        color: rgb(40, 114, 51);
+        font-size: 400%;
+    }
+
+    .title > h3{
+        text-align: center;
+        color: rgb(40, 114, 51);
+        font-size: 250%;
+    }
+
+    /*Nav*/
+    ul{
+        color: rgb(40, 114, 51);
+    
+        list-style: none;
+        width: 50%;
+        margin: auto;
+    
+        text-align: center;
+        padding-left: 0%;
+        margin-top: 3.5vh;
+    }
+    
+    ul>li{
+        display: inline-block;
+
+        border-style: solid;
+        border-radius: 15px;
+
+        color: rgb(40, 114, 51);
+        font-size: 200%;
+        
+        background-color: rgb(255, 255, 255, .5);
+        width: 15vw;
+    }
+
+    ul>li>a{
+        color: rgb(40, 114, 51);
+        text-decoration: none;
+    }
+
+    /*Divs*/
+
+    .help{
+        display: grid;
+        grid-template-columns: auto auto auto;
+
+        margin-top: 3.5vh;
+        margin-left: 3.5vw;
+        margin-right: auto;
+    }
+
+    .flights{
+        display: block;
+
+        background-image: url(Images/flight.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        border: solid rgb(40, 114, 51) 3px;
+        border-radius: 10px;
+
+        width: 27vw;
+        height: 20vh;
+    }
+
+    .flights-text{
+        background-color: rgb(255, 255, 255, .5);
+        border-radius: 10px;
+
+        opacity: 100%;
+
+        text-align: center;
+        color: rgb(40, 114, 51);
+        font-size: 200%;
+        text-decoration: none;
+    }
+
+    .hotels{
+        display: block;
+
+        background-image: url(Images/hotel.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        border: solid rgb(40, 114, 51) 3px;
+        border-radius: 10px;
+
+        width: 27vw;
+        height: 20vh;
+    }
+
+    .hotels-text{
+        background-color: rgb(255, 255, 255, .5);
+        border-radius: 10px;
+
+        opacity: 100%;
+
+        text-align: center;
+        color: rgb(40, 114, 51);
+        font-size: 200%;
+        text-decoration: none;
+    }
+
+    .tours{
+        display: block;
+
+        background-image: url(Images/tour.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        border: solid rgb(40, 114, 51) 3px;
+        border-radius: 10px;
+
+        width: 27vw;
+        height: 20vh;
+    }
+    .tours-text{
+        background-color: rgb(255, 255, 255, .5);
+        border-radius: 10px;
+
+        opacity: 100%;
+
+        text-align: center;
+        color: rgb(40, 114, 51);
+        font-size: 200%;
+        text-decoration: none;
+    }
+
+    /*Articles*/
+
+    .blurb{
+        color: rgb(40, 114, 51);
+        text-align: center;
+        margin-top: 2.5vh;
+        margin-bottom: 2.5vh;
+    }
+
+    .grid-item-1{
+        grid-area: text1;
+        font-size: 300%;
+        color: rgb(40, 114, 51);
+
+        text-decoration: none;
+        text-align: center;
+        width: 25vw;
+        margin-top: 3.5vh;
+    }
+    .grid-item-2{
+        grid-area: text2;
+        font-size: 150%;
+        color: rgb(40, 114, 51);
+        text-align: center;
+        width: 25vw;
+    }
+
+    .grid-item-img{
+        grid-area: pic;
+        width: 25vw;
+        margin-left: 10vw;
+    }
+
+    .article-grid{
+        margin-top: 5vh;
+
+        display: grid;
+        grid-template-areas: 'pic text1'
+        'pic text2';
+    }
+
+    .articles{
+        border: solid rgb(40, 114, 51) 3px;
+        border-radius: 10px;
+    }
